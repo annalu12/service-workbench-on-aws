@@ -17,12 +17,12 @@ websiteCloudFrontId: ${cf:${self:custom.settings.infrastructureStackName}.CloudF
 websiteUrl: ${cf:${self:custom.settings.infrastructureStackName}.WebsiteUrl}
 
 # Branding
-brandPageTitle: 'Service Workbench'
-brandMainTitle: 'Service Workbench on AWS (${self:custom.settings.envName}/${self:custom.settings.awsRegion})'
-brandLoginTitle: 'Service Workbench'
-brandLoginSubtitle: 'Service Workbench on AWS (${self:custom.settings.envName}/${self:custom.settings.awsRegion})'
+brandPageTitle: "RADx Analytics Workbench"
+brandMainTitle: "RADx Analytics Workbench on AWS (${self:custom.settings.envName}/${self:custom.settings.awsRegion})"
+brandLoginTitle: "RADx Analytics Workbench"
+brandLoginSubtitle: "RADx Analytics Workbench on AWS (${self:custom.settings.envName}/${self:custom.settings.awsRegion})"
 
-versionAndDate: 'Version ${self:custom.settings.versionNumber} (${self:custom.settings.versionDate})'
+versionAndDate: "Version ${self:custom.settings.versionNumber} (${self:custom.settings.versionDate})"
 
 # After how many minutes should the auto logout dialog be displayed? once displayed the user has 1 minute to dismiss
 # the dialog, otherwise they will be automatically logged out
